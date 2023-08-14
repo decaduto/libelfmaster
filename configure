@@ -420,6 +420,10 @@ case $PLATFORM in
 		PLATFORM=arm
 		ENVIRONMENT=32
 		;;
+	"aarch64")
+		PLATFORM=arm
+		ENVIROMENT=64
+		;;
 	*)
 		PLATFORM=
 		;;
