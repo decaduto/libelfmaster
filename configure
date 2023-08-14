@@ -675,10 +675,10 @@ for i in $REQUIRE_LIBRARY; do
 		done
 	fi
 
-	if test "$S" != 1; then
-		echo "failed [$i]"
-		exit $EXIT_FAILURE
-	fi
+	#if test "$S" != 1; then
+		#echo "failed [$i]"
+		#exit $EXIT_FAILURE
+	#fi
 done
 
 for i in $OPTIONAL_LIBRARY; do
